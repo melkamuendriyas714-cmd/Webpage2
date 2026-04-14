@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flexbox </title>
+
+  <style>
+    .main_container{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      flex-direction:row;
+
+      gap:20px;
+      border: 2px broaken black;
+      background-color:lightgray;
+      padding:20px
+    }
+    .container{
+      color:white;
+      border-radius:8px;
+      padding:;20px;
+    }
+    .item-1{
+      flex-basis:250px;
+      flex-grow:1;
+      background-color:red;
+    }
+    .item-2{
+      flex-basis:300px;
+      flex-shrink:0;
+      background-color:blue;
+    }
+    .item-3{
+      flex-basis:250px;
+       flex-grow:1;
+      background-color:green;
+    }
+    .item-4{
+      flex-basis:250px;
+      flex-grow:1;
+      background-color:yellow;
+    }
+  </style>
+  <body>
+    <h2>The flexbox use</h2>
+
+    <div class="main_container">
+      <div class="container item-1">
+        <h3>This the first box </h3>
+        <p>in this container we can enter our name and differen student name </p>
+      </div>
+      <div class="container item-2">
+        <h3>This the first box </h3>
+        <p>in this container we can enter our name and differen student name </p>
+      </div>
+
+      <div class="container item-3">
+        <h3>This the first box </h3>
+        <p>in this container we can enter our name and differen student name </p>
+      </div>
+      <div class="container item-4">
+        <h3>This the first box </h3>
+        <p>in this container we can enter our name and differen student name </p>
+      </div>
+    </div>
+  </body>
+</html>
